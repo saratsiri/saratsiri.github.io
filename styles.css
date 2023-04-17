@@ -3,41 +3,57 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #333;
+    background-color: #f4f4f4;
 }
 
 header {
-    background: #4CAF50;
-    text-align: center;
-    padding: 1rem;
+    background-color: #3f5c80;
+    color: #ffffff;
+    padding: 20px;
 }
 
-header h1 {
-    color: white;
+h1 {
     margin: 0;
+    padding: 0;
 }
 
-section {
-    padding: 2rem;
+h2, h3, h4 {
+    color: #3f5c80;
 }
 
 h2 {
-    border-bottom: 4px solid #4CAF50;
-    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #3f5c80;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+section {
+    padding: 20px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 ul {
     list-style: none;
-    padding-left: 0;
+    padding: 0;
 }
 
-.project {
-    margin-bottom: 1rem;
+ul.skills, ul.skills li {
+    display: inline;
+    margin: 0 5px;
 }
 
-footer {
-    text-align: center;
-    padding: 1rem;
-    background: #f4f4f4;
+.experience, .education {
+    margin-bottom: 20px;
 }
 
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
