@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #f4cccc;
+    background-color: #4CAF50;
     padding: 20px;
     text-align: center;
     color: white;
@@ -49,4 +49,9 @@ a:hover {
 
 .project {
     margin-bottom: 20px;
+}
+
+.project ul {
+    list-style-type: disc;
+    padding-left: 20px;
 }
